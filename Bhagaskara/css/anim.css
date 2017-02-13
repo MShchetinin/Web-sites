@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*
+.kartinka{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	animation: my-animation 10s infinite;
+}
+
+
+@keyframes my-animation{
+	0%{transform: translate(0,0);}
+	20%{transform: translate(250px,0);
+		background-color: white;
+        border-radius: 50%;}
+	40%{transform: translate(0,250px);
+		border-radius: 0%;
+	    background-color: red}
+	60%{transform: translate(500px,250px) scale(0.5);
+		background-color: white;
+        border-radius: 50%;}
+    80%{transform: translate(500px,500px) scale(0.5);
+        border-radius: 0%;}
+    90%{transform: translate(250px,500px) scale(0);}
+    100%{transform: translate(0px,500px) scale(1);
+        border-radius: 50%;}
+}*/
+
+.glazik{
+	animation: my-animation 1s infinite;
+	transform-origin: center;
+}
+
+.brovki{
+	animation: my-animation-my 2s infinite;
+	transform-origin: center;
+}
+
+.rot{
+	animation: my-animation-rot 3s infinite;
+	transform-origin: center;
+}
+
+.ruka{
+	animation: my-animation-ruka 3s infinite;
+	transform-origin: center;
+}
+
+.shtaniki{
+	animation: my-animation-shtaniki 2s infinite;
+	transform-origin: center;
+}
+
+.shtan1{
+	animation: my-animation-shtan1 2s infinite;
+	transform-origin: center;
+}
+
+.shtan2{
+	animation: my-animation-shtan2 2s infinite;
+	transform-origin: center;
+}
+
+@keyframes my-animation{
+	0%{transform: scale(1);}
+	50%{transform: scale(2);}
+	100%{transform: scale(1);}
+}
+
+@keyframes my-animation-my{
+	0%{transform: scale(1);}
+	50%{transform: scale(1.5);}
+	100%{transform: scale(1);}
+}
+
+@keyframes my-animation-rot{
+	0%{transform: scale(0.5);}
+	50%{transform: scale(1);}
+	100%{transform: scale(0.5);}
+}
+
+@keyframes my-animation-ruka{
+	0%{transform: rotate(0);}
+	25%{transform: rotate(15deg);}
+	50%{transform: rotate(0);}
+	75%{transform: rotate(-15deg);}
+	100%{transform: rotate(0);}
+}
+
+@keyframes my-animation-shtaniki{
+	0%{transform: translate(0,0);}
+	50%{transform: translate(0,50px);}
+	100%{transform: translate(0,0);}
+}
+
+@keyframes my-animation-shtan1{
+	0%{transform: translate(0,0);}
+	50%{transform: translate(0,20px);}
+	100%{transform: translate(0,0);}
+}
+
+@keyframes my-animation-shtan2{
+	0%{transform: translate(0,0);}
+	50%{transform: translate(0,20px);}
+	100%{transform: translate(0,0);}
+}
